@@ -1,0 +1,11 @@
+/Users/taichi/Documents/coding/SP/Blatt1/hello-rust/target/debug/deps/textwrap-fe841f0bfcd921c1.rmeta: /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/lib.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/indentation.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/splitting.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/core.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/core/optimal_fit.rs
+
+/Users/taichi/Documents/coding/SP/Blatt1/hello-rust/target/debug/deps/libtextwrap-fe841f0bfcd921c1.rlib: /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/lib.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/indentation.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/splitting.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/core.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/core/optimal_fit.rs
+
+/Users/taichi/Documents/coding/SP/Blatt1/hello-rust/target/debug/deps/textwrap-fe841f0bfcd921c1.d: /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/lib.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/indentation.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/splitting.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/core.rs /Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/core/optimal_fit.rs
+
+/Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/lib.rs:
+/Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/indentation.rs:
+/Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/splitting.rs:
+/Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/core.rs:
+/Users/taichi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.13.4/src/core/optimal_fit.rs:
