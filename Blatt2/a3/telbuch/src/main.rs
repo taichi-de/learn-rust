@@ -1,14 +1,14 @@
-extern crate microkv;
-
 use std::io;
-use microkv::Store;
+use std::io::Write;
+use std::collections::HashMap;
 
 fn main() {
-    let mut kv = Store::new("telbuch.db").unwrap();
+    let mut kv: HashMap<String, Vec<String>> = HashMap::new();
+
     loop {
         let mut input = String::new();
         print!("telbuch> ");
-        io::stdout().flush().unwrap(); // Flush stdout to display the prompt before reading input
+        io::stdout().flush().unwrap();
         io::stdin().read_line(&mut input).unwrap();
 
         let parts: Vec<&str> = input.trim().split_whitespace().collect();
@@ -21,16 +21,12 @@ fn main() {
                     let name = parts[1].to_string();
                     let number = parts[2].to_string();
 
-                    match kv.get::<Vec<String>>(&name) {
-                        Ok(Some(mut numbers)) => {
+                    match kv.get_mut(&name) {
+                        Some(numbers) => {
                             numbers.push(number);
-                            kv.set(&name, numbers).unwrap();
                         }
-                        Ok(None) => {
-                            kv.set(&name, vec![number]).unwrap();
-                        }
-                        Err(_) => {
-                            println!("Ein Fehler ist aufgetreten.");
+                        None => {
+                            kv.insert(name, vec![number]);
                         }
                     }
                 }
@@ -41,17 +37,14 @@ fn main() {
                 } else {
                     let name = parts[1];
 
-                    match kv.get::<Vec<String>>(name) {
-                        Ok(Some(numbers)) => {
+                    match kv.get(name) {
+                        Some(numbers) => {
                             for num in numbers {
                                 println!("{}", num);
                             }
                         }
-                        Ok(None) => {
+                        None => {
                             println!("Keine Telefonnummern für {} gefunden.", name);
-                        }
-                        Err(_) => {
-                            println!("Ein Fehler ist aufgetreten.");
                         }
                     }
                 }
