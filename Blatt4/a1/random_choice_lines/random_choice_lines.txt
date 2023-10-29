@@ -1,0 +1,13 @@
+Python ist sehr gut lesbar.
+Python kann man sich sehr gut merken.
+Python ist sehr gut zum Programmierenlernen geeignet.
+Python kann man gut mit eigenen C-Bibliotheken erweitern.
+Python ist gut für numerische und wissenschaftliche Berechnungen.
+Python ist gut für Bildverarbeitung.
+Python kann gut die Programmausführung parallelisieren.
+Python kann gut grosse Datenmengen analysieren.
+Python ist ideal für GIS Anwendungen geeignet.
+Python ist gut für die Programmierung grafischer Oberflächen geeignet.
+Python ist ideal für Deep Learning geeignet.
+Python kann Matlab ersetzen.
+Python ist ausführbarer Pseudocode.
